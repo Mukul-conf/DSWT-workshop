@@ -4,7 +4,7 @@
 
 ## Pre- Requisites
 
-- Your own free [Confluent Cloud account](https://confluent.cloud/signup).
+- Your own free [Confluent Cloud account](https://www.confluent.io/confluent-cloud/tryfree/?utm_campaign=tm.fm-apac_cd.DSWT-Delhi_id.701UQ00000dHt1gYAC&utm_source=marketo&utm_medium=workshop).
 - The **Gemini API key** your instructor gives you at the start of the session.
 - `git`, `uv`, and Terraform ≥ 1.3 installed. On macOS:
 
@@ -45,7 +45,7 @@ updates the workshop virtual environment. Everything from here on happens **insi
 
 ### 2. Sign up for Confluent Cloud and add your API key
 
-1. Create your free account at [confluent.cloud/signup](https://confluent.cloud/signup),
+1. Create your free account at [confluent.cloud/signup](https://www.confluent.io/confluent-cloud/tryfree/?utm_campaign=tm.fm-apac_cd.DSWT-Delhi_id.701UQ00000dHt1gYAC&utm_source=marketo&utm_medium=workshop),
    if you haven't already.
 2. Add the promo code so you aren't asked for a credit card: in the Console, open the
    **Administration** menu (top right) → **Billing & payment** → **Payment details &
@@ -79,7 +79,7 @@ When it finishes, it writes a credential card under `runs/credentials/` and poin
 
 ### 4. Open a SQL workspace
 
-In the [Confluent Cloud Console](https://confluent.cloud/), open your new environment
+In the Confluent Cloud Console, open your new environment
 (named `RIVER-RACING-GEMINI-ENV`), go to the **Flink**
 tab, and click **Open SQL workspace**. Set the workspace's **catalog** to your
 environment and **database** to your cluster, using the dropdowns above the editor.
